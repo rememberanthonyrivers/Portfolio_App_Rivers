@@ -1,0 +1,44 @@
+*{
+    font-family: "Courier New", Courier, Monaco;
+
+}
+body{
+    /* background-color: red; */
+    background: linear-gradient(-90deg, green,blue, tan, green, black);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite; 
+    text-align: center;
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+section > div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main_img{
+    border-radius: 100%;
+    padding: 50px;
+}
+#main_banner{
+    color:white;
+}
+#three_item_box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#socials_icons{
+    width: 50px;
+    height: auto;
+}
