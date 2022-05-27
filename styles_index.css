@@ -76,11 +76,11 @@ span{
     width: 175px;
     height: 60px;
     padding: 35px;
-    margin: 25px;
+    margin: 20px;
     background-color: rgb(255, 0, 0);
-    box-shadow: 20px 20px 15px gray;
+    box-shadow: 20px 20px 15px rgb(0, 0, 0);
     color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} 

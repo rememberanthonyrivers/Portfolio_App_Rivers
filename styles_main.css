@@ -43,7 +43,7 @@ section > div{
     height: auto;
 }
 #main_img:hover{
-    animation: shake 2.9s;
+    animation: shake 7.5s;
         animation-iteration-count: infinite;
 }
 #socials_icons:hover{
