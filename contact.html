@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_contact.css">
+    <script src="app.js"></script>
     <title>Contact | Rivers | Portfolio</title>
 </head>
 <body>
-    <div>hello world!</div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+    
+            <a href="about.html">Who am I?</a>
+            <a href="index.html">Completed Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="Resume_Rivers.Anthony.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="main.html">Main</a>
+
+        </div>   
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Rivers </span>
+
+    <div class="contact-title">
+        <h1>Get In Touch</h1>
+        <br>
+        <br>
+        <h3>Feel free to send an e-mail, my inbox is always open.</h3>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contact_form_handler.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+            <br>
+            <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
+
+
 </body>
 </html>
