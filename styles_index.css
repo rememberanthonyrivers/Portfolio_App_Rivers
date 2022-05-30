@@ -75,9 +75,10 @@ span{
 }
 .main_content > div{
     width: 175px;
-    height: 60px;
-    padding: 35px;
-    margin: 20px;
+    height: 90px;
+    padding: 55px;
+    border: 10px;
+    margin: 40px;
     background-color: transparent;
     border: 1px solid white;
     box-shadow: 20px 20px 15px rgb(0, 0, 0);
@@ -85,11 +86,22 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* border-radius: 50%; */
-    /* opacity: 75%; */
 }
 /* below lies the styling for the portfolio title */
 .main_content > h1 {
     color: white;
     opacity: 50%;
+}
+#portfolio_imgs{
+    width: 45%;
+}
+.uiux_img{
+    padding:10px;
+    padding-top: 15px;
+}
+.be_img{
+    padding-top: 18px;
+}
+.data_img{
+    padding-top: 18px
 }
