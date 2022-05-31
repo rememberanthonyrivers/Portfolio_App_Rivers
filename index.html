@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles_index.css">
     <script src="app.js"></script>
-    <title>Home | Rivers | Portfolio</title>
+    <title>Rivers | Portfolio</title>
 </head>
 <body>
 
@@ -15,30 +15,46 @@
         <div class="overlay-content">
     
             <a href="about.html">About Me</a>
-            <a href="index.html">Completed Projects</a>
+            <a href="main.html">Completed Projects</a>
             <a href="contact.html">Contact</a>
             <a href="Resume_Rivers.Anthony.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-            <a href="main.html">Main</a>
+            <a href="index.html">Main</a>
 
         </div>   
     </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Rivers </span>
     
-    <div class="main_content">
-        <h1>Portfolio</h1>
-        <div class="frontend_box">Front End Projects
-            <br>
-            <img id='portfolio_imgs' class='uiux_img' src="frontend1.png">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Rivers </span>
+
+    <section>
+
+        <div class="main">
+
+            <div id="main_banner">
+                 
+                Full Stack Software Engineer
+
+            </div>
+
+            <a href="main.html"><img id='main_img' width="350px" height="auto" src="selfie.JPG"></a>
+
+            <div id="three_item_box">
+
+                <a onclick="window.open('https://www.linkedin.com/in/rivers-anthony/')"><img id='socials_icons' src="linkedin_icon.png"></a>
+
+                <button>
+
+                    <a id='main_button' href="main.html">Learn More</a>
+
+                </button>
+                
+                <a onclick="window.open('https://github.com/rememberanthonyrivers')"><img id='socials_icons' src="github_icon.png"></a>
+
+            </div>
+            
         </div>
-        <div class="api_box">API's
-            <img id='portfolio_imgs' src="api1.png">
-        </div>
-        <div class="backend_box">Backend Projects
-            <img id='portfolio_imgs' class="be_img" src="backend1.png">
-        </div>
-        <div class="data_projects_box">Data Projects
-            <img id='portfolio_imgs' class="data_img" src="database2.png">
-        </div>
-    </div>
+
+    </section>
+
 </body>
 </html>
+
