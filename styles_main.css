@@ -47,7 +47,7 @@ section > div{
         animation-iteration-count: infinite;
 }
 #socials_icons:hover{
-        animation: shake .9s;
+        animation: shake 1s;
         animation-iteration-count: infinite;
 }
 @keyframes shake{
