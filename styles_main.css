@@ -91,6 +91,11 @@ span{
 .main_content > h1 {
     color: white;
     opacity: 50%;
+    padding-bottom: 25px;
+}
+.empty{
+    width: auto;
+    height: 175px;
 }
 #portfolio_imgs{
     width: 45%;
@@ -103,5 +108,5 @@ span{
     padding-top: 18px;
 }
 .data_img{
-    padding-top: 18px
+    padding-top: 18px;
 }
