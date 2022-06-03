@@ -67,11 +67,8 @@ body{
 span{
     color: white;
 }
-h1{
-    padding-top: 15px;
-}
 h4{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 /* below lies the styling for the main content */
 .main_content{
@@ -93,6 +90,23 @@ h4{
     justify-content: center;
     text-align: center;
 }
+/* .main_content:hover .frontend_box{
+    
+} */
+/* slide in styling for the body lies below */
+@keyframes slide-in {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+}
+
+.main_content {
+    animation: slide-in 2000ms;
+    animation-timing-function: linear;
+  }
 /* below lies the styling for the portfolio title */
 .main_content > h1 {
     color: white;
@@ -104,7 +118,7 @@ h4{
 }
 /* styling for the buttons */
 .main_buttons {
-    background-color: red; /* Green */
+    background-color: red;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -119,10 +133,9 @@ h4{
     border-radius: 20px;
 }
 .button:hover {
-    box-shadow: 0 12px 45px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 45px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: black;
 }
-
-
 #portfolio_imgs{
     width: 45%;
 }
