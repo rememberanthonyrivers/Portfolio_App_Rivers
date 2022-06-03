@@ -78,7 +78,7 @@ span{
     height: 90px;
     padding: 55px;
     border: 10px;
-    margin: 40px;
+    margin: 60px;
     background-color: transparent;
     border: 1px solid white;
     box-shadow: 20px 20px 15px rgb(0, 0, 0);
@@ -96,6 +96,9 @@ span{
 .empty{
     width: auto;
     height: 100px;
+}
+button{
+    
 }
 #portfolio_imgs{
     width: 45%;
