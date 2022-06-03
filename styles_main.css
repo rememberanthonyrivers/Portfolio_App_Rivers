@@ -5,7 +5,7 @@
 body{
     background: linear-gradient(-90deg, green,blue, tan, green, black);
     background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
+    animation: gradientBG 7s ease infinite;
 }
 @keyframes gradientBG {
     0% {
@@ -67,6 +67,12 @@ body{
 span{
     color: white;
 }
+h1{
+    padding-top: 15px;
+}
+h4{
+    padding-top: 20px;
+}
 /* below lies the styling for the main content */
 .main_content{
     display: flex;
@@ -91,15 +97,32 @@ span{
 .main_content > h1 {
     color: white;
     opacity: 50%;
-    padding-bottom: 25px;
 }
 .empty{
     width: auto;
     height: 100px;
 }
-button{
-    
+/* styling for the buttons */
+.main_buttons {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 20px;
 }
+.button:hover {
+    box-shadow: 0 12px 45px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 #portfolio_imgs{
     width: 45%;
 }
