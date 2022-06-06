@@ -90,9 +90,6 @@ h4{
     justify-content: center;
     text-align: center;
 }
-/* .main_content:hover .frontend_box{
-    
-} */
 /* slide in styling for the body lies below */
 @keyframes slide-in {
     from {
@@ -104,7 +101,7 @@ h4{
 }
 
 .main_content {
-    animation: slide-in 2000ms;
+    animation: slide-in 3500ms;
     animation-timing-function: linear;
   }
 /* below lies the styling for the portfolio title */
