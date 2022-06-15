@@ -29,15 +29,23 @@
         <h3>Feel free to send an e-mail, my inbox is always open.</h3>
     </div>
     <div class="contact-form">
-        <form id="contact-form" method="post" action="contact_form_handler.php">
-            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+
+        <form id="contact-form" method="POST" action="https://formsubmit.co/hireriversanthony@gmail.com"> 
+
+            <input type="hidden" name="_subject" value="New Email From Your Site🔴">
+
+            <input name="name" type="text" class="form-control"  placeholder="Your Name" required>
             <br>
             <input name="email" type="email" class="form-control" placeholder="Your Email" required>
             <br>
-            <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+            <input name="email" class="form-control" placeholder="Subject" required>
             <br>
-            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            <textarea name="email" class="form-control" placeholder="Message" row="4" required></textarea>
+            <br>
+            <input name="submit" type="submit" class="form-control submit" onclick="submissonSuccess()" value="SEND MESSAGE">
+            
         </form>
+
     </div>
 </body>
 </html>
