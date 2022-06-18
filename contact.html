@@ -34,15 +34,17 @@
 
             <input type="hidden" name="_subject" value="New Email From Your Site🔴">
 
-            <input name="name" type="text" class="form-control"  placeholder="Your Name" required>
+            <!-- <input type="text" name="name" class="form-control"  placeholder="Your Name" required> -->
+
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+
             <br>
-            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+
+            <textarea type='text' name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+
             <br>
-            <!-- <input name="email" class="form-control" placeholder="Subject" required>
-            <br> -->
-            <textarea name="email" class="form-control" placeholder="Message" row="4" required></textarea>
-            <br>
-            <input name="submit" type="submit" class="form-control submit" onclick="submissonSuccess()" value="SEND MESSAGE">
+            
+            <input type="submit" class="form-control submit" onclick="submissonSuccess()" value="SEND MESSAGE">
             
         </form>
 
