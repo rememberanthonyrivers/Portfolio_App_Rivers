@@ -100,9 +100,8 @@ h3{
       transform: translateY(0%);
     }
 }
-
 .main_content {
-    animation: slide-in 3500ms;
+    animation: slide-in 2000ms;
     animation-timing-function: linear;
   }
 /* below lies the styling for the portfolio title */
