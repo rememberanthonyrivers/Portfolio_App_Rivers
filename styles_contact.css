@@ -118,6 +118,7 @@ form .submit:hover{
     border-radius: 50%;
     cursor: pointer;
 }
+/* below is the styling for the three images */
 #three_item_box{
     padding-top: 115px;
     display: flex;
