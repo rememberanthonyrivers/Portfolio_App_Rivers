@@ -68,17 +68,3 @@ span{
     color: white;
 }
 /* below lies the styling for the main content */
-/* #empty_box{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    color: white;
-    background-color: black;
-    text-align: center;
-} */
-header > span{
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    padding-top: 500px;
-}

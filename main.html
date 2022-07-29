@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles_main.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles_main.css" />
     <script src="app.js"></script>
-    <title>Home | Rivers | Portfolio</title>
+    <script src="jquery-2.1.4.js"></script>
+    <title>Index | Rivers | Portfolio</title>
 </head>
+
 <body>
-
     <div id="myNav" class="overlay">
-
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         <div class="overlay-content">
-    
             <a href="about.html">About Me</a>
 
             <a href="main.html">Completed Projects</a>
@@ -25,61 +25,65 @@
             <a href="Resume_Rivers.Anthony.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
 
             <a href="index.html">Main</a>
-
-        </div> 
-
+        </div>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Rivers </span>
-    
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776; Rivers
+    </span>
+
+
+
     <div class="main_content">
 
-        <h3>Discover more with each button</h3>
+        <h3 id="banner">Discover more with each button</h3>
 
         <div class="frontend_box">
-            
-            Front End Projects
-
-            <img id='portfolio_imgs' class='uiux_img' src="frontend1.png">
-
+            <div id="frontend">Front End</div>
+            <img id="portfolio_imgs" class="uiux_img" src="frontend1.png" />
         </div>
 
-        <button class="main_buttons button" onclick="window.location.href='#'">Learn Me</button>
-        
+        <button class="main_buttons button" onclick="window.location.href='front_end_projects.html'">
+            Learn Me
+        </button>
 
         <div class="api_box">
-            
-            API's
+            API's / Fun Projects
 
-            <img id='portfolio_imgs' src="api1.png">
-
+            <img id="portfolio_imgs" src="api1.png" />
         </div>
 
-        <button class="main_buttons button" onclick="window.location.href='#'">Learn Me</button>
-        
+        <button class="main_buttons button" onclick="window.location.href='api_projects.html'">
+            Learn Me
+        </button>
+
         <div class="backend_box">
-            
             Backend Projects
 
-            <img id='portfolio_imgs' class="be_img" src="backend1.png">
-
+            <img id="portfolio_imgs" class="be_img" src="backend1.png" />
         </div>
 
-        <button class="main_buttons button" onclick="window.location.href='#'">Learn Me</button>
+        <button class="main_buttons button" onclick="window.location.href='backend_projects.html'">
+            Learn Me
+        </button>
 
         <div class="data_projects_box">
-            
             Data Projects
 
-            <img id='portfolio_imgs' class="data_img" src="backend_sql.png">
-
+            <img id="portfolio_imgs" class="data_img" src="backend_sql.png" />
         </div>
 
-        <button class="main_buttons button" onclick="window.location.href='#'">Learn Me</button>
+        <button class="main_buttons button" onclick="window.location.href='data_projects.html'">
+            Learn Me
+        </button>
 
     </div>
 
     <div class="empty"></div>
 
+    <div class="footer_end_strip_parent">
+        <a href='https://www.linkedin.com/in/rivers-anthony/' id='footer_name'>Copyright 2022 - Anthony Rivers</a>
+    </div>
+
 </body>
+
 </html>

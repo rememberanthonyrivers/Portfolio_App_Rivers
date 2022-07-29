@@ -115,7 +115,7 @@ form .submit{
 }
 form .submit:hover{
     background-color: #ff8f87;
-    border-radius: 50%;
+    border-radius: 1000px;
     cursor: pointer;
 }
 /* below is the styling for the three images */
@@ -128,7 +128,7 @@ form .submit:hover{
     bottom: 55px;
 }
 #socials_icons{
-    width: 50px;
+    width: 125px;
     height: auto;
 }
 #socials_icons:hover{
@@ -147,4 +147,19 @@ form .submit:hover{
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* now for the end footer strip with my brief information */
+.footer_end_strip_parent{
+    width: 100%;
+    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+/* styling for bottom strip where name is  */
+#footer_name{
+    color: white;
+    font-size: 20px;
+    width: 100%;
 }

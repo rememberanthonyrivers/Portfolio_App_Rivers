@@ -91,8 +91,12 @@ h3{
     justify-content: center;
     text-align: center;
 }
+#frontend_box{
+    text-align: center;
+}
 /* slide in styling for the body lies below */
-@keyframes slide-in {
+
+/* @keyframes slide-in {
     from {
       transform: translateY(-100%);
     }
@@ -103,7 +107,8 @@ h3{
 .main_content {
     animation: slide-in 2000ms;
     animation-timing-function: linear;
-  }
+  } */
+
 /* below lies the styling for the portfolio title */
 .main_content > h1 {
     color: white;
@@ -146,3 +151,18 @@ h3{
 .data_img{
     padding-top: 18px;
 }
+/* now for the end footer strip with my brief information */
+.footer_end_strip_parent{
+    width: 100%;
+    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* styling for bottom strip where name is  */
+#footer_name{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+} 
