@@ -73,12 +73,32 @@ span{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 0; 
 }
 .main_box > div {
-    background-color: white;
+    background-color: gray;
     padding: 80px;
 }
+
 #box_one{
     margin-top: 125px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+}
+#box_two{
+    margin-bottom: 1px;
+}
+/* now for the end footer strip with my brief information */
+.footer_end_strip_parent{
+    width: 100%;
+    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+/* styling for bottom strip where name is  */
+#footer_name{
+    color: white;
+    font-size: 20px;
+    width: 100%;
 }
