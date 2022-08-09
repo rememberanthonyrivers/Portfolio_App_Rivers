@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles_frontend.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles_frontend.css" />
     <script src="app.js"></script>
     <title>Front-End Work | Rivers | Portfolio</title>
 </head>
+
 <body>
     <div id="myNav" class="overlay">
-
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         <div class="overlay-content">
-    
             <a href="about.html">About Me</a>
 
             <a href="main.html">Completed Projects</a>
@@ -24,33 +24,37 @@
             <a href="Resume_Rivers.Anthony.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
 
             <a href="index.html">Main</a>
-
-        </div>  
-
+        </div>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Rivers </span>
+    <span id="navMenu" style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776; Rivers
+    </span>
 
     <div class="main_box">
-
         <div id="box_one">
-            <div class="img_one"><img src="#" alt="#"></div>
-            <div class="box_one_buttons"></div>
-                <div class="button_one">hello world!</div>
-                <div class="button_two">hello world!</div>
+            <span id="box_headline">hello world!</span>
+            <div>
+                <img id="img" src="aar_season_img.png" alt="aar_season_img" />
+            </div>
+            <div class="box_buttons">
+                <button class="butt button" id="button_one">Live</button>
+                <button class="butt button" id="button_one">Code</button>
+            </div>
         </div>
 
-
-        <div id="box_two">Hello world!</div>
-
+        <div id="box_two">
+            <span id="box_headline">hello world!</span>
+            <div><img id="img" src="aar_season_img.png" alt="#" /></div>
+            <div class="box_buttons">
+                <button class="butt button" id="button_one">Live</button>
+                <button class="butt button" id="button_two">Code</button>
+            </div>
+        </div>
     </div>
 
     <div class="footer_end_strip_parent">
-
-        <a href='https://www.linkedin.com/in/rivers-anthony/' id='footer_name'>Copyright 2022 - Anthony Rivers</a>
-
+        <a href="https://www.linkedin.com/in/rivers-anthony/" id="footer_name">Copyright 2022 - Anthony Rivers</a>
     </div>
-
 </body>
 
 </html>
