@@ -78,96 +78,70 @@ body {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* below lies the styling for the main content */
-.main_box {
+#banner{
+    color: white;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.main_content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 0%;
-    width: auto;
 }
-
-.main_box > div {
-    background-color: gray;
-    margin: 30px;
-    /* border-radius: 100px; */
-}
-#box_one{
-    padding: 80px;
-    width: 250px;
-    height: 250px;
-    text-align: right;
-}
-#box_two {
-    padding: 80px;
-    width: 250px;
-    height: 250px;
-    text-align: left;
-}
-#box_headline{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-/* both of the below elements belong to box one and box two */
-.box_buttons{
-    margin: 50px;
-}
-#img {
-    width: 100%;
-}
-
-/* below lies the styling for the buttons */
-.box_buttons> div {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 150px;
-    padding: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+.main_content > div{
+    width: 225px;
+    height: auto;
+    padding: 55px;
+    border: 10px;
+    margin: 60px;
+    background-color: transparent;
+    box-shadow: 20px 20px 15px rgb(0, 0, 0);
+    color: white;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.butt {
+#frontend_box{
+    text-align: center;
+}
+/* slide in styling for the body lies below */
+
+/* @keyframes slide-in {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+}
+.main_content {
+    animation: slide-in 2000ms;
+    animation-timing-function: linear;
+  } */
+
+/* below lies the styling for the portfolio title */
+.main_content > h1 {
+    color: white;
+    opacity: 50%;
+}
+/* #box_title_two{
+} */
+.empty{
+    width: auto;
+    height: 100px;
+}
+/* styling for the buttons */
+.main_buttons {
     background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -177,6 +151,62 @@ body {
     box-shadow: 0 12px 45px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: black;
 }
+
+
+#portfolio_imgs{
+    width: 100%;
+}
+.uiux_img{
+    padding:10px;
+    padding-top: 20px;
+}
+.griot_img{
+    padding-top: 30px;
+}
+.be_img{
+    padding-top: 18px;
+}
+.data_img{
+    padding-top: 18px;
+}
+/* now for the end footer strip with my brief information */
+.footer_end_strip_parent{
+    width: 100%;
+    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* styling for bottom strip where name is  */
+#footer_name{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

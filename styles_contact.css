@@ -148,6 +148,13 @@ form .submit:hover{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+
+.empty{
+    width: auto;
+    height: 200px;
+}
+
 /* now for the end footer strip with my brief information */
 .footer_end_strip_parent{
     width: 100%;

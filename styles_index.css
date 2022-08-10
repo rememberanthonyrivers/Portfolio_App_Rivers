@@ -39,6 +39,9 @@ section>div {
     border-radius: 100%;
     padding: 50px;
 }
+#main_img:hover{
+    transform: scale(1.01525);
+}
 
 #main_banner {
     text-align: center;
@@ -114,7 +117,6 @@ section>div {
 /* below lies the styling for the button */
 .button {
     display: inline-block;
-    background-color: white;
     color: red;
     text-align: center;
     font-size: 18px;
