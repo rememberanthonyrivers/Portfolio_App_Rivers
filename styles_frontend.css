@@ -169,6 +169,23 @@ body {
 .data_img{
     padding-top: 18px;
 }
+
+
+
+#first_box_text{
+    padding-top: 15px;
+    text-align: center;
+}
+#second_box_text{
+    padding-top: 25px;
+    text-align: end;
+}
+
+
+
+
+
+
 /* now for the end footer strip with my brief information */
 .footer_end_strip_parent{
     width: 100%;
@@ -187,53 +204,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* now for the end footer strip with my brief information */
 .footer_end_strip_parent {
     width: 100%;
@@ -247,6 +217,6 @@ body {
 /* styling for bottom strip where name is  */
 #footer_name {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     width: 100%;
 }
