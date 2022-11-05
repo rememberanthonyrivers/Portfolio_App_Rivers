@@ -178,29 +178,15 @@ body {
 }
 #second_box_text{
     padding-top: 25px;
-    text-align: end;
-}
-
-
-
-
-
-
-/* now for the end footer strip with my brief information */
-.footer_end_strip_parent{
-    width: 100%;
-    color: white;
-    color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
-/* styling for bottom strip where name is  */
-#footer_name{
-    color: white;
-    font-size: 20px;
-    width: 100%;
-} 
+
+
+
+
+
+
+
 
 
 

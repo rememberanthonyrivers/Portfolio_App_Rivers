@@ -38,6 +38,7 @@ section>div {
 #main_img {
     border-radius: 100%;
     padding: 50px;
+    padding-bottom: 75px;
 }
 #main_img:hover{
     transform: scale(1.01525);
@@ -123,6 +124,7 @@ section>div {
     width: 150px;
     transition: all 0.5s;
     cursor: pointer;
+
 }
 
 .button span {
